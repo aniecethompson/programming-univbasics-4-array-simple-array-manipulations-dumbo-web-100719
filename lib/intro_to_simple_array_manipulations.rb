@@ -36,11 +36,11 @@ def using_pop(array)
     @my_favorite_things.concat(more_favs)
   end
   
-  #def using_insert(array, string)
+  def using_insert(array, string)
     @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
     @another_language = "Python"
     @list_of_programming_languages.insert(@another_language)
-  #end 
+  end 
   
   def using_uniq(array)
    
