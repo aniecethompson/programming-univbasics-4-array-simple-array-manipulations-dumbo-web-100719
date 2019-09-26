@@ -23,8 +23,9 @@ def using_pop(array)
  end
  
  def using_concat(*array)
-   
-  array.concat(array)
+  @my_favorite_things = arr1
+  more_favs = arr2
+  arr1.concat(arr2)
   end
   
   def using_insert(array, string)
