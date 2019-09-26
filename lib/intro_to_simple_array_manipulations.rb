@@ -23,7 +23,7 @@ def using_pop(array)
  end
  
  def using_concat(*array)
-  array.concat(array)
+  array.concat[(array)]
   end
   
   def using_insert(array, string)
