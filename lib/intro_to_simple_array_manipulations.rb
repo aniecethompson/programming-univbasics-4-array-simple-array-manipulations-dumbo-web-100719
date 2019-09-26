@@ -23,8 +23,7 @@ def using_pop(array)
  end
  
  def using_concat(*array)
-  more_favs = ["sports cars", "flatiron school"]
-  array.concat(more_favs)
+  array.concat(array)
   end
   
   def using_insert(array, string)
