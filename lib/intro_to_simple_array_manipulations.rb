@@ -42,7 +42,7 @@ def using_pop(array)
     @list_of_programming_languages.insert(@another_language)
   #end 
   
-  def using_uniq
+  def using_uniq(array)
     
   end
   
