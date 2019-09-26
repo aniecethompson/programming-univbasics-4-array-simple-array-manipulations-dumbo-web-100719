@@ -44,7 +44,7 @@ def using_pop(array)
   
   def using_uniq(array)
     haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  
+    using_uniq(haircuts) = haircuts.uniq
     new_array = using_uniq(haircuts)
   end
   
