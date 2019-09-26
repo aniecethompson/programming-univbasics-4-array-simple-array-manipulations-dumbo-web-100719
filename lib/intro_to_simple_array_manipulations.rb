@@ -4,10 +4,8 @@ def using_push(array, string)
   colors_in_the_rainbow.push(next_color)
 end
 
-def using_unshift (array, string)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  @new_neighborhood = "Staten Island"
-  bouroughs_in_nyc.unshift(@new_neighborhood)
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
 def using_pop(array)
@@ -37,9 +35,8 @@ def using_pop(array)
   end
   
   def using_insert(array, string)
-    @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-    @another_language = "Python"
-    @list_of_programming_languages.insert(@another_language)
+  array.insert()
+    @
   end 
   
   def using_uniq(array)
