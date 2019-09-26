@@ -43,8 +43,7 @@ def using_pop(array)
   #end 
   
   def using_uniq(array)
-    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    using_uniq(haircuts) = haircuts.uniq
+   
   end
   
   def using_flatten(array)
