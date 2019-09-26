@@ -43,6 +43,6 @@ def using_pop(array)
     array.delete(string)
   end
   
-  def using_delete_at
+  def using_delete_at(array,integer)
 
 end
