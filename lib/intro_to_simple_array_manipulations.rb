@@ -23,7 +23,7 @@ def using_pop(array)
  end
  
  def using_concat(*array)
-   a1= more_favs
+   
   array.concat(a1)
   end
   
